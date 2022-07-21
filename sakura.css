@@ -1,0 +1,134 @@
+/*
+* 版权所属不知名🌸
+*/
+
+    :root{
+        --桜: #FEDFE1;
+        --蓝: #3a8af2;
+        --黑: #232323;
+        --白: #FFFFFF;
+    }
+
+    /*自定义元素注册*/
+    img,cen{
+        display: block;
+    }
+
+
+    body{
+        margin: 0;
+    }
+    img,video{
+        width: 100%;
+        max-width: 1300px;
+    } 
+    tr,th,td{
+        border: 1px solid #ddd;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    textarea{
+        min-width: 300px;
+        min-height:100px;
+        margin-top: 2px;
+    }
+    button,input[type="button"],
+    input[type="submit"]{
+        border: none;
+        padding: 5px;
+        min-width: 100px;
+    }
+    input[type="color"]{
+        border: none;
+    }
+
+
+
+
+
+
+    /* aimg */
+    aimg{
+        align-items: center; 
+        overflow: hidden; 
+        display: flex; 
+        max-width: 1300px;
+        max-height: 480px;                 
+    }
+    aimg[scale] > img{
+        transform: scale(1.4);        
+        transition: transform .3s;
+    }
+    aimg[scale]:hover > img{
+        transform: scale(1.7);     
+    }
+
+
+
+    /* cen */
+    cen,.cen,[cen]{
+        padding: 50px 3%;
+        transition: padding .4s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 媒体查询 */
+@media screen and (min-width:1000px){
+
+    
+
+}
+@media (min-width:500px) and (max-width:1000px) {
+    
+
+    
+}
+@media screen and (max-width:500px) {
+
+
+
+}
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+    
